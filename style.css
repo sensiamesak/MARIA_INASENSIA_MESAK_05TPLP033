@@ -1,0 +1,45 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url("space.jpg") no-repeat center center/cover;
+    color: rgb(10, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  .img-fluid {
+    width: 320px;
+    border-radius: 1.5rem;
+  }
+  
+  .about-description {
+    padding: 0 4rem 0 0;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background-color: #0f1011;
+    color: rgb(0, 6, 10);
+    padding: 20px 0;
+    text-align: center;
+  }
